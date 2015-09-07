@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Profile>
+  <Name>Player4</Name>
+  <ID>PLAYER4</ID>
+  <Mood>0.5</Mood>
+  <SteamID>0</SteamID>
+  <Stats>
+    <currentTitle></currentTitle>
+    <kills>0</kills>
+    <suicides>0</suicides>
+    <timesKilled>0</timesKilled>
+    <matchesWon>0</matchesWon>
+    <trophiesSinceLastWinCounter>0</trophiesSinceLastWinCounter>
+    <trophiesSinceLastWin>0</trophiesSinceLastWin>
+    <timesSpawned>0</timesSpawned>
+    <trophiesWon>0</trophiesWon>
+    <gamesPlayed>0</gamesPlayed>
+    <fallDeaths>0</fallDeaths>
+    <timesSwore>0</timesSwore>
+    <bulletsFired>0</bulletsFired>
+    <bulletsThatHit>0</bulletsThatHit>
+    <coolness>0</coolness>
+    <unarmedDucksShot>0</unarmedDucksShot>
+    <killsFromTheGrave>0</killsFromTheGrave>
+    <timesNetted>0</timesNetted>
+    <timeInNet>0</timeInNet>
+    <loyalFans>0</loyalFans>
+    <unloyalFans>0</unloyalFans>
+    <timeUnderMindControl>0</timeUnderMindControl>
+    <timesMindControlled>0</timesMindControlled>
+    <timeOnFire>0</timeOnFire>
+    <timesLitOnFire>0</timesLitOnFire>
+    <airTime>17.7999</airTime>
+    <timesJumped>25</timesJumped>
+    <disarms>0</disarms>
+    <timesDisarmed>0</timesDisarmed>
+    <quacks>4</quacks>
+    <timeWithMouthOpen>0.400000125</timeWithMouthOpen>
+    <timeSpentOnMines>0</timeSpentOnMines>
+    <minesSteppedOn>0</minesSteppedOn>
+    <timeSpentReloadingOldTimeyWeapons>0</timeSpentReloadingOldTimeyWeapons>
+    <presentsOpened>0</presentsOpened>
+    <respectGivenToDead>0</respectGivenToDead>
+    <funeralsPerformed>0</funeralsPerformed>
+    <funeralsRecieved>0</funeralsRecieved>
+    <timePreaching>0</timePreaching>
+    <conversions>0</conversions>
+    <_nodeName>Stats</_nodeName>
+  </Stats>
+  <Unlocks></Unlocks>
+  <Tickets>0</Tickets>
+  <Mappings />
+</Profile>
