@@ -50,10 +50,7 @@ class DuckTrainer
     end
 
     puts 'Unlocks:'
-    player_unlocks = xml.css('Profile Unlocks').first.text
-    player_unlocks = player_unlocks.split '|'
-    player_unlocks = player_unlocks.select { |x| x.length > 0 }
-    player_unlocks = player_unlocks.map { |x| x.to_sym }
+    player_unlocks = tidy_unlock_list xml.css('Profile Unlocks').first.text
 
     player_unlocks.each do |unlock_name|
       puts "#{@indent}#{@unlocks[unlock_name]}"
@@ -65,6 +62,12 @@ class DuckTrainer
     name[0] = name[0].upcase
 
     return name
+  end
+
+  def tidy_unlock_list player_unlocks
+    player_unlocks = player_unlocks.split '|'
+    player_unlocks = player_unlocks.select { |x| x.length > 0 }
+    player_unlocks = player_unlocks.map { |x| x.to_sym }
   end
 end
 
