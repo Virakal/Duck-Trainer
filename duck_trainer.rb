@@ -1,7 +1,7 @@
 require 'nokogiri'
 
 class DuckTrainer
-  def initialize
+  def initialize filename
     @unlocks = {
       BASEMENTKEY: 'Basement Arcade Key',
       MOOGRAV: "Moon Gravity",
@@ -20,10 +20,11 @@ class DuckTrainer
     }
 
     @indent = ' - '
+    @filename = filename
   end
 
   def get_file
-    File.open 'test_saves/76561198015076176.pro', 'r+'
+    File.open @filename, 'r+'
   end
 
   def do_it
@@ -67,4 +68,4 @@ class DuckTrainer
   end
 end
 
-DuckTrainer.new.do_it
+DuckTrainer.new(ARGV[0]).do_it
